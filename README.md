@@ -65,7 +65,7 @@ huggingface-cli download Shuyun-Wang/M-GDM \
 
 ---
 
-## Quick test
+## Quick Test
 
 Runs on corrupted frames only — no ground truth required. Outputs restored images and/or GIFs.
 

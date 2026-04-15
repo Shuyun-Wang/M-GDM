@@ -43,8 +43,8 @@ Bitstream corruption (packet loss, bit errors) introduces structured artifacts t
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Shuyun-Wang/MGDM.git
-cd MGDM
+git clone https://github.com/Shuyun-Wang/M-GDM.git
+cd M-GDM
 ```
 
 ### 2. Set up the environment

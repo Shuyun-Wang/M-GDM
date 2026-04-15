@@ -18,7 +18,7 @@
   </a>
 </p>
 
-<img src="assets/teaser.png" alt="MGDM teaser" width="100%">
+<img src="assets/teaser.png" alt="MGDM teaser" width="95%">
 
 </div>
 

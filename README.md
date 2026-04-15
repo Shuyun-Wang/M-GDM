@@ -58,7 +58,7 @@ uv pip install torch torchvision diffusers transformers accelerate einops lpips 
 ### 3. Download checkpoints
 
 ```bash
-huggingface-cli download Shuyun-Wang/M-GDM \
+hf download Shuyun-Wang/M-GDM \
     --exclude "DAVIS.tar.gz" \
     --local-dir checkpoints
 ```
@@ -94,7 +94,7 @@ Runs on the DAVIS test set and computes PSNR / SSIM / LPIPS against ground truth
 Download and extract the DAVIS test set:
 
 ```bash
-huggingface-cli download Shuyun-Wang/M-GDM DAVIS.tar.gz --local-dir .
+hf download Shuyun-Wang/M-GDM DAVIS.tar.gz --local-dir .
 mkdir -p datasets
 tar -xzf DAVIS.tar.gz -C datasets
 ```

@@ -52,7 +52,7 @@ cd M-GDM
 ```bash
 uv venv --python 3.10
 source .venv/bin/activate
-uv pip install torch torchvision diffusers transformers accelerate einops lpips scikit-image imageio packaging
+uv pip install torch torchvision diffusers transformers accelerate einops lpips scikit-image imageio packaging timm opencv-python-headless
 ```
 
 ### 3. Download checkpoints

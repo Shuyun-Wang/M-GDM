@@ -18,7 +18,7 @@
   </a>
 </p>
 
-<img src="assets/teaser.png" alt="MGDM teaser" width="95%">
+<img src="assets/teaser.png" alt="MGDM teaser" width="90%">
 
 </div>
 
@@ -76,7 +76,7 @@ datasets/
 ├── BSC_JPEGImages/{video}/{00000..N}.jpg
 ├── BSC_mvs/{video}/{00000..N}.npz
 ├── frame_type.npy
-└── <json>                               # {video_name: num_frames}
+└── quick_test.json
 ```
 
 Run a quick test to verify your setup before the full evaluation:
@@ -106,11 +106,10 @@ Expected data layout:
 ```
 datasets/DAVIS/
 ├── BSC_JPEGImages/{video}/{00000..N}.jpg
+├── BSC_mvs/{video}/{00000..N}.npz
 ├── GT_JPEGImages/{video}/{00000..N}.jpg
 ├── GT_masks/{video}/{00000..N}.png
-├── BSC_mvs/{video}/{00000..N}.npz
 ├── frame_type.npy
-├── quick_test.json
 └── test_davis.json
 ```
 
